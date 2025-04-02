@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 interface FormUsuario{
-    onSubmit:(dataa:{nombre:string,correo:string,edad:number})=>void;
+    onSubmit:(datos:{nombre:string,correo:string,edad:number})=>void;
 }
 
 const Formulario:React.FC<FormUsuario>=({onSubmit})=>{
